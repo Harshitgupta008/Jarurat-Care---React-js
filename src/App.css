@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(80, 80, 80);
+  color: #e0e0e0;
+}
+.container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.button-group {
+  margin: 10px 0;
+}
+
+button {
+  all: unset;
+  margin: 0 10px;
+  padding: 10px 15px;
+  font-size: 20px;
+  font: bold;
+  color: #e0e0e0;
+  background-color: rgb(18, 204, 71);
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:focus{
+  background-color: rgb(12, 167, 56);
+}
+
+.progress-container {
+  width: 100%;
+  height: 30px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #76c7c0;
+  transition: width 0.3s ease-in-out; /* Animation for smooth transition */
+}
